@@ -599,7 +599,6 @@
 	<skos:prefLabel xml:lang="en">Helvetic</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Helvetikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Helvétique</skos:prefLabel>
-	<skos:prefLabel xml:lang="it">Elvetico</skos:prefLabel>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch#Lower_Helvetic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch#Upper_Helvetic"/>
 </rdf:Description>
