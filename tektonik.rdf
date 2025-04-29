@@ -22,6 +22,7 @@
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/AutochthonousNorthAlpineForeland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"> https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Autochthonous North Alpine Foreland consists of the European platform with its Cenozoic graben structures of eastern France, southwestern Germany and northern Switzerland. The boundary between the Autochthonous North Alpine Foreland and the Detached North Alpine Foreland marks the northernmost limit of significant Alpine compressional deformation.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
@@ -113,7 +114,7 @@
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/DetachedNorthAlpineForeland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<rdfs:isDefinedBy rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:isDefinedBy>
+	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Detached North Alpine Foreland refers to the displaced sedimentary cover north of the front of the Helvetic units. Decoupling between the thrusted and deformed cover and the underlying basement took place in a décollement zone in the evaporites of Muschelkalk Group east of a line Porrentruy–Biel–Fribourg and of the Keuper Group further west. Deformation includes northwestward and northward displacement, thrusting and folding as well as strike-slip deformation. The northern boundary, which coincides with the front of Alpine deformation, is given by the outermost (distal) significant thrusting and folding. The easternmost clear evidence for décollement-related tectonics is given by the Lägern Anticline east of Baden with some more indications from seismic data found south of Bülach. Further to the east, displacement of the sedimentary cover along the decollement zone is presumed to gradually decrease. Accordingly, no precise eastern boundary can be drawn between the Detached North Alpine Foreland and the autochthonous South German Platform and a conceptual transition zone is defined instead.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
@@ -209,6 +210,7 @@ The Upper Freshwater Molasse of northeastern Switzerland contains several level
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/CenozoicMagmaticRocks">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"> https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">Several magmatic events occurred during the Alpine orogeny. Two groups of magmatic rocks need to be distinguished: the Hegau Volcanic Suite in the Autochthonous North Alpine Foreland and the extensive Periadriatic province in southern parts of the Alps.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
@@ -750,6 +752,7 @@ The Upper Freshwater Molasse of northeastern Switzerland contains several level
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/Helvetic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"> https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Helvetic tectonic domain comprises the sedimentary series (Late Carboniferous to Early Oligocene) initially deposited on the ante-alpine South European continental margin, as well as the underlying crystalline basement.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
@@ -2370,10 +2373,8 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/Lepontic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<skos:definition xml:lang="de">Die tektonische Domäne Lepontikum liegt zwischen den helvetischen und pennischen Einheiten im inneren Teil der Zentralalpen. Sie ist durch das Vorhandensein einer strukturellen und metamorphen Domstruktur (Lepontin-Dom) gekennzeichnet. Die meisten dieser Einheiten stammen aus dem distalsten Teil des ausgedünnten europäischen Kontinentalrandes.</skos:definition>
+	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"> https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Lepontic tectonic domain is situated between the Helvetic and Penninic units in the internal part of the Central Alps. It is characterized by the presence of a structural and metamorphic dome (Lepontine Dome). Most of these units are derived from the most distal part of the thinned European continental margin.</skos:definition>
-	<skos:definition xml:lang="it">Il dominio tettonico Lepontico è situato tra le unità elvetica e pennidica nella parte interna delle Alpi centrali. È caratterizzato dalla presenza di un duomo strutturale e metamorfico (Duomo Lepontico). La maggior parte di queste unità derivano dalla parte più distale del margine continentale europeo assottigliato.</skos:definition>
-	<skos:definition xml:lang="fr">Le domaine tectonique Lépontique est situé entre les unités helvétique et pennique, dans la partie interne des Alpes centrales. Il se caractérise par la présence d'un dôme structural et métamorphique (dôme lépontin). La plupart de ces unités proviennent de la partie la plus distale de la marge continentale européenne amincie.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">Lepontic</skos:prefLabel>
@@ -2751,6 +2752,7 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/Penninic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"> https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Penninic domain comprises all tectonic units situated between the Helvetic or the Lepontic domains and the Austroalpine or the Salassic domains. It also includes units that were transported further north on the Helvetic and which are currently found as klippen on top or in front of this domain (e.g. Prealps).</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
@@ -4094,6 +4096,7 @@ The Falknis Nappe is characterized by a more than 200 m thick Kimmeridgian–Tit
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/Austroalpine">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"> https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Austroalpine tectonic domain is built up from allochthons derived from the Adriatic plate. The main episode of W- to NW- directed transport of nappe stacking is of Cretaceous age (“Eoalpine” orogeny reaching up to eclogitic conditions). Later, all these units became thrusted over the Penninic nappes towards the north during the Cenozoic, along a thrust that defines the outer limits of the Lower Engadine and the Tauern windows. The Austroalpine domain comprises two types of nappes. One type consists mainly of pre-Triassic crystalline basement rocks including their Permian – Mesozoic cover rocks (“basement-cover nappe”). The other type consists of detached allochthonous sedimentary cover rocks.
 Because of the superposition of two orogenic cycles in the Austroalpine domain, its subdivision has always been difficult and controversial. In eastern Switzerland, the boundary between the Lower and Upper Austroalpine is largely based on paleogeographic considerations. The Upper Austroalpine units are derived from relatively more proximal parts of the Jurassic passive Adriatic continental margin in respect to the distal continental margin units preserved in the Lower Austroalpine, in particular in the Err Nappe characterized by the presence of rift-related polymict breccias of Early and Middle Jurassic age.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
@@ -4480,6 +4483,7 @@ The basement of the S-charl-Sesvenna Nappe is commonly referred to as the Sesven
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/Salassic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"> https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Salassic Domain groups the tectonic units derived from an extensional allochthon split off from the most distal part of the Adriatic margin during the Middle Jurassic opening of the Piemonte-Liguria Ocean and subducted below the Austroalpine and South Alpine units in Late Cretaceous times. These units – Dent Blanche, Mont Mary and Sesia nappes in western Switzerland and adjacent Italy, together with the Margna and Sella nappes in southeastern Switzerland and partly in Italy – are characterised by their high-pressure metamorphism.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
@@ -5187,6 +5191,7 @@ The basement of the S-charl-Sesvenna Nappe is commonly referred to as the Sesven
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/SouthAlpine">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"> https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The South Alpine tectonic domain exposes a complete section of the Adriatic continental crust from ultramafic (slices of uppermost continental mantle lithosphere), mafic and felsic granulite-facies rocks (lower continental crust: Ivrea Zone) through medium- and low-grade basement rocks (middle–upper continental crust: Strona-Ceneri and Val Colla zones, basement of the Orobic units) to unconformably overlying non-metamorphic Late Carboniferous sediments that were involved in post-Variscan folding.
 The detached Variscan continental crust and its overlying Permian to Miocene sedimentary cover form a fold-and-thrust belt, the southern S-vergent back-chain of the Alps, separated from the other domains of the Western and Central Alps to the west by the Canavese Fault and to the north by the Tonale Fault. Both faults are part of an Oligocene–Miocene post-collisional system of transpressive transfer faults along the northwestern boundary of the Adriatic indenter.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
