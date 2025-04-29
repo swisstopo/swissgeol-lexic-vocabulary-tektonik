@@ -61,7 +61,8 @@
 	<skos:prefLabel xml:lang="it">Altopiano della Haute-Saône</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Plateau de la Haute-Saône</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Haute-Saône Platform</skos:prefLabel>
-	<skos:altLabel xml:lang="de">autochthoner Tafeljura; Nordfranzösisches Schichtstufenland</skos:altLabel>
+	<skos:altLabel xml:lang="de">autochthoner Tafeljura</skos:altLabel>
+	<skos:altLabel xml:lang="de">Nordfranzösisches Schichtstufenland</skos:altLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/AutochthonousNorthAlpineForeland"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
@@ -89,7 +90,8 @@
 	<skos:prefLabel xml:lang="de">Süddeutsche Tafel</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Plateau de l'Allemagne méridionale</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Altopiano della Germania meridionale</skos:prefLabel>
-	<skos:altLabel xml:lang="de">autochthoner Tafeljura; Südwestdeutsches Schichtstufenland</skos:altLabel>
+	<skos:altLabel xml:lang="de">Südwestdeutsches Schichtstufenland</skos:altLabel>
+	<skos:altLabel xml:lang="de">autochthoner Tafeljura</skos:altLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/AutochthonousNorthAlpineForeland"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/Hegau-BodenseeGraben"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
@@ -111,7 +113,7 @@
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/DetachedNorthAlpineForeland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
+	<rdfs:isDefinedBy rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:isDefinedBy>
 	<skos:definition xml:lang="en">The Detached North Alpine Foreland refers to the displaced sedimentary cover north of the front of the Helvetic units. Decoupling between the thrusted and deformed cover and the underlying basement took place in a décollement zone in the evaporites of Muschelkalk Group east of a line Porrentruy–Biel–Fribourg and of the Keuper Group further west. Deformation includes northwestward and northward displacement, thrusting and folding as well as strike-slip deformation. The northern boundary, which coincides with the front of Alpine deformation, is given by the outermost (distal) significant thrusting and folding. The easternmost clear evidence for décollement-related tectonics is given by the Lägern Anticline east of Baden with some more indications from seismic data found south of Bülach. Further to the east, displacement of the sedimentary cover along the decollement zone is presumed to gradually decrease. Accordingly, no precise eastern boundary can be drawn between the Detached North Alpine Foreland and the autochthonous South German Platform and a conceptual transition zone is defined instead.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
@@ -2368,7 +2370,10 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/Lepontic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<skos:definition xml:lang="en">The Lepontic tectonic domain is situated between the Helvetic and Penninic units in the internal part of the Central Alps. It is characterized by the presence of a structural and metamorphic dome (Lepontine Dome). Most of these units are derived from the most distal part of the thinned European margin.</skos:definition>
+	<skos:definition xml:lang="de">Die tektonische Domäne Lepontikum liegt zwischen den helvetischen und pennischen Einheiten im inneren Teil der Zentralalpen. Sie ist durch das Vorhandensein einer strukturellen und metamorphen Domstruktur (Lepontin-Dom) gekennzeichnet. Die meisten dieser Einheiten stammen aus dem distalsten Teil des ausgedünnten europäischen Kontinentalrandes.</skos:definition>
+	<skos:definition xml:lang="en">The Lepontic tectonic domain is situated between the Helvetic and Penninic units in the internal part of the Central Alps. It is characterized by the presence of a structural and metamorphic dome (Lepontine Dome). Most of these units are derived from the most distal part of the thinned European continental margin.</skos:definition>
+	<skos:definition xml:lang="it">Il dominio tettonico Lepontico è situato tra le unità elvetica e pennidica nella parte interna delle Alpi centrali. È caratterizzato dalla presenza di un duomo strutturale e metamorfico (Duomo Lepontico). La maggior parte di queste unità derivano dalla parte più distale del margine continentale europeo assottigliato.</skos:definition>
+	<skos:definition xml:lang="fr">Le domaine tectonique Lépontique est situé entre les unités helvétique et pennique, dans la partie interne des Alpes centrales. Il se caractérise par la présence d'un dôme structural et métamorphique (dôme lépontin). La plupart de ces unités proviennent de la partie la plus distale de la marge continentale européenne amincie.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">Lepontic</skos:prefLabel>
@@ -5544,18 +5549,18 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PillonMelangeZone"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/c_770e2f42">
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/OetztalNappe">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Internal Folded Jura represents the most intensely deformed part of the Detached North Alpine Foreland. In a similar manner to the whole Jura Mountains, it forms a prominent arcuate chain («Haute Chaîne») in eastern France and northwestern Switzerland.</skos:definition>
+	<skos:definition xml:lang="en">The Ötztal Nappe forms the main part of the Ötztal Nappe Complex. It consists mainly of polymetamorphic paragneisses with minor orthogneisses and amphibolites.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
-	<skos:prefLabel xml:lang="en">Internal Folded Jura</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Interner Faltenjura</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Jura Plissé Interne</skos:prefLabel>
-	<skos:prefLabel xml:lang="it">Giura Piegato Interno</skos:prefLabel>
-	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/InternalFoldedJuraAndForelandPlateau"/>
+	<skos:prefLabel xml:lang="en">Ötztal Nappe</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Ötztal-Decke</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Nappe de l'Ötztal</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Falda dell'Ötztal</skos:prefLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/OetztalNappeComplex"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/c_cc7e9b90">
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/ForelandPlateau">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="en">The Foreland Plateau covers the detached part of the Molasse Basin and its Mesozoic basement. It is characterized by NE–SW trending low amplitude folds.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
@@ -5566,15 +5571,15 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/InternalFoldedJuraAndForelandPlateau"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/OetztalNappe">
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/InternalFoldedJura">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Ötztal Nappe forms the main part of the Ötztal Nappe Complex. It consists mainly of polymetamorphic paragneisses with minor orthogneisses and amphibolites.</skos:definition>
+	<skos:definition xml:lang="en">The Internal Folded Jura represents the most intensely deformed part of the Detached North Alpine Foreland. In a similar manner to the whole Jura Mountains, it forms a prominent arcuate chain («Haute Chaîne») in eastern France and northwestern Switzerland.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
-	<skos:prefLabel xml:lang="en">Ötztal Nappe</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Ötztal-Decke</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Nappe de l'Ötztal</skos:prefLabel>
-	<skos:prefLabel xml:lang="it">Falda dell'Ötztal</skos:prefLabel>
-	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/OetztalNappeComplex"/>
+	<skos:prefLabel xml:lang="en">Internal Folded Jura</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Interner Faltenjura</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Jura Plissé Interne</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Giura Piegato Interno</skos:prefLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/InternalFoldedJuraAndForelandPlateau"/>
 </rdf:Description>
 
 </rdf:RDF>
