@@ -179,6 +179,7 @@ The Upper Freshwater Molasse of northeastern Switzerland contains several level
 	<skos:prefLabel xml:lang="it">Rocce magmatiche cenozoiche</skos:prefLabel>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/HegauVolcanicSuite"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PeriadriaticMagmaticProvince"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/326"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -588,6 +589,7 @@ The Upper Freshwater Molasse of northeastern Switzerland contains several level
 	<skos:prefLabel xml:lang="it">Elvetico</skos:prefLabel>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerHelvetic"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperHelvetic"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/63"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -664,6 +666,7 @@ The Upper Freshwater Molasse of northeastern Switzerland contains several level
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PillonMelangeZone"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/BulleMelangeZone"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PioraPeidenSliceComplex"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/64"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -745,6 +748,7 @@ The Upper Freshwater Molasse of northeastern Switzerland contains several level
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MiruttaSlicePartAarMassif"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/OrglenSlicesPartAarMassif"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PizDArtgasSlice"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/62"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -1107,6 +1111,7 @@ The Upper Freshwater Molasse of northeastern Switzerland contains several level
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/WagetenSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MuertschenNappe"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/GonzenWalenstadtSlices"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/83"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -1129,6 +1134,7 @@ The Upper Freshwater Molasse of northeastern Switzerland contains several level
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/FriterenSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/AxenNorthSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/AxenSouthSlice"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/80"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -1164,6 +1170,7 @@ The Säntis Nappe is composed of Cretaceous and rare Paleogene sediments. Its in
 	<skos:prefLabel xml:lang="it">Falda del Säntis</skos:prefLabel>
 	<skos:altLabel xml:lang="de">Churfristen-Decke</skos:altLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperHelvetic"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/82"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -1177,6 +1184,7 @@ The Säntis Nappe is composed of Cretaceous and rare Paleogene sediments. Its in
 	<skos:prefLabel xml:lang="fr">Nappe de Hohenems</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda di Hohenems</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperHelvetic"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/67"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -1312,6 +1320,7 @@ The Säntis Nappe is composed of Cretaceous and rare Paleogene sediments. Its in
 	<skos:altLabel xml:lang="de">Liebenstein-Schuppenzone</skos:altLabel>
 	<skos:altLabel xml:lang="de">Feuerstätter-Decke</skos:altLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperHelvetic"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/86"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2309,6 +2318,7 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerPenninic"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MiddlePenninic"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperPenninic"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/235"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2340,6 +2350,7 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PfundsNappe"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/SionCourmayeurNappe"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/RozChampatschMelange"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/263"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2375,6 +2386,7 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/FimberZone"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/TasnaNappe"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/SiviezMischabelNappe"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/236"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2406,6 +2418,7 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/EtirolLevazSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MalencoFornoLizunNappe"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/ZermattSaasFeeNappe"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/246"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2485,6 +2498,7 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 	<skos:prefLabel xml:lang="fr">Nappe de l'Üntschen</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda dell'Üntschen</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerPenninic"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/283"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2498,6 +2512,7 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 	<skos:prefLabel xml:lang="fr">Nappe de Sigiswang</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda di Sigiswang</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerPenninic"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/281"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2524,6 +2539,7 @@ The mélange zone can be subdivided into lower mélanges, associated with a spec
 	<skos:prefLabel xml:lang="fr">Nappe d'Oberstdorf</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda di Oberstdorf</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerPenninic"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/279"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2609,6 +2625,7 @@ The Tomül Nappe locally has an ophiolite-bearing mélange at its base, overlain
 	<skos:prefLabel xml:lang="fr">Zone de Ramosch</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Zona di Ramosch</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerPenninic"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/243"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2623,6 +2640,7 @@ The Tomül Nappe locally has an ophiolite-bearing mélange at its base, overlain
 	<skos:prefLabel xml:lang="it">Falda di Pfunds</skos:prefLabel>
 	<skos:altLabel xml:lang="de">Muttler-Decke</skos:altLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerPenninic"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/265"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2878,6 +2896,7 @@ The Falknis Nappe is characterized by a more than 200 m thick Kimmeridgian–Tit
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/TschingelSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/GrauspitzSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/GlegghornSlice"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/238"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2891,6 +2910,7 @@ The Falknis Nappe is characterized by a more than 200 m thick Kimmeridgian–Tit
 	<skos:prefLabel xml:lang="fr">Nappe de la Sulzfluh</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda della Sulzfuh</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MiddlePenninic"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/244"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2904,6 +2924,7 @@ The Falknis Nappe is characterized by a more than 200 m thick Kimmeridgian–Tit
 	<skos:prefLabel xml:lang="fr">Zone du Fimber</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Zona del Fimber</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MiddlePenninic"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/239"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -2917,6 +2938,7 @@ The Falknis Nappe is characterized by a more than 200 m thick Kimmeridgian–Tit
 	<skos:prefLabel xml:lang="fr">Nappe de Tasna</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda di Tasna</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MiddlePenninic"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/245"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3086,6 +3108,7 @@ The Falknis Nappe is characterized by a more than 200 m thick Kimmeridgian–Tit
 	<skos:prefLabel xml:lang="fr">Nappe du Platta</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda del Platta</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperPenninic"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/251"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3104,6 +3127,7 @@ The Falknis Nappe is characterized by a more than 200 m thick Kimmeridgian–Tit
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/GotschnawangSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/DrosSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/TotalpOphioliteComplex"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/248"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3485,6 +3509,7 @@ The facies of syn- and post-rift sediments of the Lower Austroalpine has remarka
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/ErrNappeComplex"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/GrueenhornCasannaSliceComplex"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/RothornSchwarzhornNappeComplex"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/212"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3514,6 +3539,7 @@ The facies of syn- and post-rift sediments of the Lower Austroalpine has remarka
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/RoggenstockMoerdergruebiNappe"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/SCharlSesvennaNappe"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UmbrailTerzaSliceComplex"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/115"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3527,6 +3553,7 @@ The facies of syn- and post-rift sediments of the Lower Austroalpine has remarka
 	<skos:prefLabel xml:lang="fr">Écaille du Stammerspitz</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Scaglia dello Stammerspitz</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerAustroalpine"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/267"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3547,6 +3574,7 @@ The facies of syn- and post-rift sediments of the Lower Austroalpine has remarka
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MadulainSlices"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/JulierNappe"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/SchlattainClavadatschPadellaSlices"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/214"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3566,6 +3594,7 @@ The facies of syn- and post-rift sediments of the Lower Austroalpine has remarka
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/CorvatschSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/ChasteletsSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/BardellaRoccabellaSlices"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/216"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3597,6 +3626,7 @@ The facies of syn- and post-rift sediments of the Lower Austroalpine has remarka
 	<skos:prefLabel xml:lang="fr">Nappe du Languard</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda del Languard</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperAustroalpine"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/189"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3626,6 +3656,7 @@ In the west, between Giubasco and Sondrio, the Tonale Nappe forms a steeply N-di
 	<skos:prefLabel xml:lang="fr">Nappe du Krabachjoch</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda del Krabachjoch</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperAustroalpine"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/203"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3639,6 +3670,7 @@ In the west, between Giubasco and Sondrio, the Tonale Nappe forms a steeply N-di
 	<skos:prefLabel xml:lang="fr">Nappe de l'Inntal</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda dell'Inntal</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperAustroalpine"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/202"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3661,6 +3693,7 @@ In the northern Rätikon mountain range, between Austria, Liechtenstein and Swit
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/OchsenkopfSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/HeubuehlSlice"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/DreiSchwesternSlice"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/121"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3674,6 +3707,7 @@ In the northern Rätikon mountain range, between Austria, Liechtenstein and Swit
 	<skos:prefLabel xml:lang="fr">Nappe de l'Allgäu</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda dell'Allgäu</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperAustroalpine"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/117"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3706,6 +3740,7 @@ The Triassic cover of the Silvretta Nappe is preserved in two SW–NE striking s
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperAustroalpine"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/Phyllitgneiszone"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/SChanfSlices"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/191"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3933,6 +3968,7 @@ The Triassic cover of the Silvretta Nappe is preserved in two SW–NE striking s
 	<skos:prefLabel xml:lang="fr">Nappe du Dorfberg</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda del Dorfberg</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/RothornSchwarzhornNappeComplex"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/217"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3972,6 +4008,7 @@ The Triassic cover of the Silvretta Nappe is preserved in two SW–NE striking s
 	<skos:prefLabel xml:lang="fr">Nappe de l'Ela</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda di Ela</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/BerninaNappeComplex"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/215"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -4347,6 +4384,7 @@ The detached Variscan continental crust and its overlying Permian to Miocene sed
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/VaresottoImbricates"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/IvreaCeneriComplex"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/StronaCeneriZone"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/323"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -4490,6 +4528,7 @@ The detached Variscan continental crust and its overlying Permian to Miocene sed
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/BregagliaIntrusion"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/NovateIntrusion"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/AdamelloBatholith"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/332"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -4645,6 +4684,7 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:prefLabel xml:lang="fr">Nappe de l'Ötztal</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda dell'Ötztal</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/OetztalNappeComplex"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/184"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/ForelandPlateau">
@@ -4994,6 +5034,7 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:prefLabel xml:lang="fr">Mélange de Roz-Champatsch</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Mélange di Roz-Champatsch</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerPenninic"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/266"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -5086,6 +5127,7 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:prefLabel xml:lang="fr">Écailles du Gonzen-Walenstadt</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Scaglie del Gonzen-Walenstadt</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/GlarusNappeComplex"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/81"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -5464,6 +5506,7 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:prefLabel xml:lang="fr">Cenoman-Randschuppe</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Cenoman-Randschuppe</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperAustroalpine"/>
+	<skos:exactMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/118"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -5493,6 +5536,7 @@ The basement of the S-charl-Sesvenna Nappe is commonly referred to as the Sesven
 	<skos:prefLabel xml:lang="it">Falda di S-charl-Sesvenna</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperAustroalpine"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/TavrueSlice"/>
+	<skos:closeMatch rdf:resource="http://resource.geolba.ac.at/tectonicunit/190"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
