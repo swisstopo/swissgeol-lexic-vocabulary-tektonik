@@ -16,7 +16,10 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-	<skos:prefLabel xml:lang="en">TectonicUnits</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Unités tectoniques</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Tektonische Einheiten</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Tectonic Units</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Unità tettoniche</skos:prefLabel>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/AutochthonousNorthAlpineForeland">
@@ -25,15 +28,15 @@
 	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Autochthonous North Alpine Foreland consists of the European platform with its Cenozoic graben structures of eastern France, southwestern Germany and northern Switzerland. The boundary between the Autochthonous North Alpine Foreland and the Detached North Alpine Foreland marks the northernmost limit of significant Alpine compressional deformation.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
-	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">Autochthonous North Alpine Foreland</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Autochthones Nordalpines Vorland</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Avant-pays nord-alpin autochtone</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Avampaese nordalpino autoctono</skos:prefLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/NorthAlpineForeland"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/BresseGraben"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperRhineGraben"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/SouthGermanPlatform"/>
-	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/NorthAlpineForelandTransitionZone"/>
+	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/TransitionZoneBetweenDetachedAndAutochthonousNorthAlpineForeland"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/HauteSaonePlatform"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/DetachedNorthAlpineForeland"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
@@ -83,21 +86,34 @@
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/TransitionZoneBetweenDetachedAndAutochthonousNorthAlpineForeland">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
+	<skos:prefLabel xml:lang="en">Transition zone between Detached and Autochthonous North Alpine Foreland</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Übergangszone Abgeschert-Autochthones Vorlandplateau</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Zone de transition entre Avant-pays nord-alpin décolé et autochtone</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Zona di transizione tra l'Avampaese nordalpino distaccato e autoctono</skos:prefLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/AutochthonousNorthAlpineForeland"/>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/DetachedNorthAlpineForeland"/>
+	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/DetachedNorthAlpineForeland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
 	<rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Detached North Alpine Foreland refers to the displaced sedimentary cover north of the front of the Helvetic units. Decoupling between the thrusted and deformed cover and the underlying basement took place in a décollement zone in the evaporites of Muschelkalk Group east of a line Porrentruy–Biel–Fribourg and of the Keuper Group further west. Deformation includes northwestward and northward displacement, thrusting and folding as well as strike-slip deformation. The northern boundary, which coincides with the front of Alpine deformation, is given by the outermost (distal) significant thrusting and folding. The easternmost clear evidence for décollement-related tectonics is given by the Lägern Anticline east of Baden with some more indications from seismic data found south of Bülach. Further to the east, displacement of the sedimentary cover along the decollement zone is presumed to gradually decrease. Accordingly, no precise eastern boundary can be drawn between the Detached North Alpine Foreland and the autochthonous South German Platform and a conceptual transition zone is defined instead.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
-	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">Detached North Alpine Foreland</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Abgeschertes Nordalpines Vorland</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Avant-pays nord-alpin décollé</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Avampaese nordalpino distaccato</skos:prefLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/NorthAlpineForeland"/>
+	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/TransitionZoneBetweenDetachedAndAutochthonousNorthAlpineForeland"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/ExternalFoldedJura"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/SubalpineMolasse"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/InternalFoldedJuraAndForelandPlateau"/>
-	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/NorthAlpineForelandTransitionZone"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/AutochthonousNorthAlpineForeland"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
@@ -3816,8 +3832,8 @@ The Triassic cover of the Silvretta Nappe is preserved in two SW–NE striking s
 	<skos:prefLabel xml:lang="fr">Nappe du Mont Mary</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Falda del Mont Mary</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/Salassic"/>
-	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappeLowerUnit"/>
-	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappeUpperUnit"/>
+	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerUnitOfTheMontMaryNappe"/>
+	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperUnitOfTheMontMaryNappe"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3879,6 +3895,34 @@ The Triassic cover of the Silvretta Nappe is preserved in two SW–NE striking s
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerUnitOfTheMontMaryNappe">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<skos:definition xml:lang="en">The Lower Unit of the Mont Mary Nappe mainly comprises pre-Alpine amphibolite-facies paragneisses and minor amphibolites and orthogneisses.</skos:definition>
+	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
+	<skos:prefLabel xml:lang="en">Lower Unit of the Mont Mary Nappe</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Untere Einheit der Mont-Mary-Decke</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Unité Inférieure de la Nappe du Mont Mary</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Unità Inferiore della Falda del Mont Mary</skos:prefLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappe"/>
+	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/ArollaUnit"/>
+	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperUnitOfTheMontMaryNappe">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
+	<skos:definition xml:lang="en">The Upper Unit of the Mont Mary Nappe consists of high-grade pre-Alpine paragneisses (kinzigites auct.), amphibolites, marbles and minor spinel-amphibole harzburgites. It is similar to the Valpelline Unit of the Dent Blanche Nappe.</skos:definition>
+	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
+	<skos:prefLabel xml:lang="en">Upper Unit of the Mont Mary Nappe</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Obere Einheit der Mont-Mary-Decke</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Unité Supérieure de la Nappe du Mont Mary</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Unità Superiore della Falda del Mont Mary</skos:prefLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappe"/>
+	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/ValpellineUnit"/>
+	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/ArollaUnit">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
@@ -3889,7 +3933,7 @@ The Triassic cover of the Silvretta Nappe is preserved in two SW–NE striking s
 	<skos:prefLabel xml:lang="fr">Unité d'Arolla</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Unità di Arolla</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/DentBlancheNappe"/>
-	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappeLowerUnit"/>
+	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/LowerUnitOfTheMontMaryNappe"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -3903,7 +3947,7 @@ The Triassic cover of the Silvretta Nappe is preserved in two SW–NE striking s
 	<skos:prefLabel xml:lang="fr">Unité de Valpelline</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Unità di Valpelline</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/DentBlancheNappe"/>
-	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappeUpperUnit"/>
+	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperUnitOfTheMontMaryNappe"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -4640,6 +4684,9 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:definition xml:lang="en">Within the Upper Helvetic Pillon Mélange Zone, the Anzeinde-type slivers (composed of a Malm-Cretaceous series) often overly the Plaine Morte Mélange.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">Anzeinde-type slivers</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Anzeinde-Typ-Scholle</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lambeau de type Anzeinde</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lembo di tipo Anzeinde</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PillonMelangeZone"/>
 </rdf:Description>
 
@@ -4648,6 +4695,9 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:definition xml:lang="en">Within the Upper Helvetic Pillon Mélange Zone, the Sex Mort-type slivers (composed of a Malm and Eocene series) occur exclusively on top and in front of the Sublage Nappe (Wildhorn Nappe Complex).</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">Sex Mort-type slivers</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Sex-Mort-Typ-Scholle</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lambeau de type Sex Mort</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lembo di tipo Sex Mort</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PillonMelangeZone"/>
 </rdf:Description>
 
@@ -4656,6 +4706,9 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:definition xml:lang="en">Within the Upper Helvetic Pillon Mélange Zone, the Arveyes-type slivers (composed of a Dogger and Eocene series) occur between the Prealps nappes and the frontal folds of the Lower and Upper Helvetic nappes.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">Arveyes-type slivers</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Arveyes-Typ-Scholle</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lambeau de type Arveyes</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lembo di tipo Arveyes</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PillonMelangeZone"/>
 </rdf:Description>
 
@@ -4664,6 +4717,9 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:definition xml:lang="en">Within the Upper Helvetic Pillon Mélange Zone, the Bex-Laubhorn-type slivers (composed of a Triassic to Early Jurassic series) occur between the Prealps nappes and the frontal folds of the Lower and Upper Helvetic nappes.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">Bex-Laubhorn-type slivers</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Bex-Laubhorn-Typ-Scholle</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lambeau de type Bex-Laubhorn</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lembo di tipo Bex-Laubhorn</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PillonMelangeZone"/>
 </rdf:Description>
 
@@ -4672,6 +4728,9 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:definition xml:lang="en">Within the Upper Helvetic Pillon Mélange Zone, the Meilleret-type slivers (composed of Eocene flysch) occur between the Prealps nappes and the frontal folds of the Lower and Upper Helvetic nappes.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">Meilleret-type slivers</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Meilleret-Typ-Scholle</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lambeau de type Meilleret</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lembo di tipo Meilleret</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PillonMelangeZone"/>
 </rdf:Description>
 
@@ -4822,34 +4881,6 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/UpperOrobicNappe"/>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/StronaCeneriZone"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/StronaCeneriZonePartIvreaCeneri"/>
-	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappeLowerUnit">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<skos:definition xml:lang="en">The Lower Unit of the Mont Mary Nappe mainly comprises pre-Alpine amphibolite-facies paragneisses and minor amphibolites and orthogneisses.</skos:definition>
-	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
-	<skos:prefLabel xml:lang="en">Lower Unit of the Mont Mary Nappe</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Untere Einheit der Mont-Mary-Decke</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Unité Inférieure de la Nappe du Mont Mary</skos:prefLabel>
-	<skos:prefLabel xml:lang="it">Unità Inferiore della Falda del Mont Mary</skos:prefLabel>
-	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappe"/>
-	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/ArollaUnit"/>
-	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappeUpperUnit">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<skos:definition xml:lang="en">The Upper Unit of the Mont Mary Nappe consists of high-grade pre-Alpine paragneisses (kinzigites auct.), amphibolites, marbles and minor spinel-amphibole harzburgites. It is similar to the Valpelline Unit of the Dent Blanche Nappe.</skos:definition>
-	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
-	<skos:prefLabel xml:lang="en">Upper Unit of the Mont Mary Nappe</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Obere Einheit der Mont-Mary-Decke</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Unité Supérieure de la Nappe du Mont Mary</skos:prefLabel>
-	<skos:prefLabel xml:lang="it">Unità Superiore della Falda del Mont Mary</skos:prefLabel>
-	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/MontMaryNappe"/>
-	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/ValpellineUnit"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
@@ -5320,19 +5351,6 @@ In contrast to the Bregaglia Intrusion and most other Periadriatic plutons, asc
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/NorthAlpineForelandTransitionZone">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
-	<skos:prefLabel xml:lang="en">Transition zone between Detached and Autochthonous North Alpine Foreland</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Übergangszone Abgeschert-Autochthones Vorlandplateau</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Zone de transition entre Avant-pays nord-alpin décolé et autochtone</skos:prefLabel>
-	<skos:prefLabel xml:lang="it">Zona di transizione tra l'Avampaese nordalpino distaccato e autoctono</skos:prefLabel>
-	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/AutochthonousNorthAlpineForeland"/>
-	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/DetachedNorthAlpineForeland"/>
-	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/MarbachBerneckTriangleZone">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy xml:lang="en">Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
@@ -5636,6 +5654,36 @@ The basement of the S-charl-Sesvenna Nappe is commonly referred to as the Sesven
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/SchaflaegerNappe"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/DorfbergNappe"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://dev-lexic.swissgeol.ch/active"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/NorthAlpineForeland">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
+	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
+	<skos:prefLabel xml:lang="en">North Alpine Foreland</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Nordalpines Vorland</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Avant-pays nord-alpin</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Avampaese nordalpino</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/GieraSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
+	<skos:prefLabel xml:lang="en">Giera Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Giera-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille de Giera</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia di Giera</skos:prefLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PioraPeidenSliceComplex"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/PiancaSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
+	<skos:prefLabel xml:lang="en">Pianca Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Pianca-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille du Pizzo Pianca</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia dello Pizzo Pianca</skos:prefLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/PioraPeidenSliceComplex"/>
 </rdf:Description>
 
 </rdf:RDF>
