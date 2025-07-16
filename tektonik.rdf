@@ -5658,12 +5658,15 @@ The basement of the S-charl-Sesvenna Nappe is commonly referred to as the Sesven
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/NorthAlpineForeland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The North Alpine Foreland consists of the whole European platform.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
 	<skos:prefLabel xml:lang="en">North Alpine Foreland</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Nordalpines Vorland</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Avant-pays nord-alpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Avampaese nordalpino</skos:prefLabel>
+	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/AutochthonousNorthAlpineForeland"/>
+	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits/DetachedNorthAlpineForeland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/TectonicUnits/GieraSlice">
