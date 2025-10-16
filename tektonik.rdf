@@ -1360,10 +1360,10 @@ The Säntis Nappe is composed of Cretaceous and rare Paleogene sediments. Its in
 	<skos:definition xml:lang="en">The Pillon Mélange Zone of the Western Swiss Alps consists of a chaotic system of discontinuous slivers with relatively little "wildflysch" matrix. Some of the slivers are several kilometers long and where formerly considered as “Ultrahelvetic nappes”, whose paleogeographic origin is located south of that of the Wildhorn Nappe Complex, i.e., in the most distal part of the European continental shelf.
 The mélange zone can be subdivided into lower mélanges, associated with a specific Helvetic nappe, and upper mélanges, related to the base of the Prealps nappes. It is located on top of the Lower and Upper Helvetic nappes and forms a wide band between the Helvetic units and the Penninic units of the Prealps (formerly called the “Zone des Cols”, “Sattelzone” or “Internal Prealps”).</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/TectonicUnits"/>
-	<skos:prefLabel xml:lang="en">Pillon Melange Zone</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Pillon-Melangezone</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Zone de mélange du Pillon</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Zona di mélange del Pillon</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Pillon Mélange Zone</skos:prefLabel>
 	<skos:altLabel xml:lang="de">Sattelzone</skos:altLabel>
 	<skos:altLabel xml:lang="fr">complexe du Pillon</skos:altLabel>
 	<skos:altLabel xml:lang="fr">zone des Cols</skos:altLabel>
