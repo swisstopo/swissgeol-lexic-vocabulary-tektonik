@@ -43,6 +43,7 @@
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/NorthAlpineForeland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="en">The North Alpine Foreland consists of the whole European platform (detached and autochthonous) situated north of the front of the Helvetic units.</skos:definition>
+	<skos:example xml:lang="en">Northern Alpine foreland (Schmid et al. 2004)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:topConceptOf rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:prefLabel xml:lang="en">North Alpine Foreland</skos:prefLabel>
@@ -408,9 +409,6 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/CenozoicMagmaticRocks">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
-	<rdfs:comment>https://www.strati.ch/en/tectonic/cenozoic-magmatites</rdfs:comment>
 	<skos:definition xml:lang="en">Several magmatic events occurred during the Alpine orogeny. Two groups of magmatic rocks need to be distinguished: the Hegau Volcanic Suite in the Autochthonous North Alpine Foreland and the extensive Periadriatic province in southern parts of the Alps.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
@@ -423,9 +421,12 @@
 	<skos:notation>15309386</skos:notation>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/HegauVolcanicSuite"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PeriadriaticMagmaticProvince"/>
+	<skos:exactMatch>https://www.strati.ch/en/tectonic/cenozoic-magmatites</skos:exactMatch>
 	<skos:exactMatch rdf:resource="https://resource.geosphere.at/thes/tect/326"/>
 	<adms:status>active</adms:status>
 	<dbo:colourHexCode>#FF0000</dbo:colourHexCode>
+	<dct:bibliographicCitation>Gouffon et al. (2024): Tectonic Map of Switzerland 1:500'000, Explanatory notes. Federal Office of Topography swisstopo</dct:bibliographicCitation>
+	<dct:source>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</dct:source>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/PeriadriaticMagmaticProvince">
@@ -979,10 +980,11 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/Helvetic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
-	<rdfs:comment>https://www.strati.ch/en/tectonic/helvetic</rdfs:comment>
 	<skos:definition xml:lang="en">The Helvetic tectonic domain comprises the sedimentary series (Late Carboniferous to Early Oligocene) initially deposited on the ante-alpine South European continental margin, as well as the underlying crystalline basement.</skos:definition>
+	<skos:example xml:lang="en">Helvetides</skos:example>
+	<skos:example xml:lang="fr">Helvétides</skos:example>
+	<skos:example xml:lang="fr">nappes helvétiques</skos:example>
+	<skos:example xml:lang="de">Helvetikum (Pfiffner 2009)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:topConceptOf rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
@@ -991,14 +993,18 @@
 	<skos:prefLabel xml:lang="de">Helvetikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Helvétique</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Elvetico</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Helvetides</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Helvétides</skos:altLabel>
-	<skos:altLabel xml:lang="fr">nappes helvétiques</skos:altLabel>
+	<skos:altLabel xml:lang="de">Helvetische (tektonische) Domäne</skos:altLabel>
+	<skos:altLabel xml:lang="en">Helvetic (tectonic) domain</skos:altLabel>
+	<skos:altLabel xml:lang="fr">domaine (tectonique) Helvétique</skos:altLabel>
+	<skos:altLabel xml:lang="it">dominio (tettonico) Elvetico</skos:altLabel>
 	<skos:notation>15309049</skos:notation>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/LowerHelvetic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/UpperHelvetic"/>
+	<skos:exactMatch>https://www.strati.ch/en/tectonic/helvetic</skos:exactMatch>
 	<skos:closeMatch rdf:resource="https://resource.geosphere.at/thes/tect/63"/>
 	<adms:status>active</adms:status>
+	<dct:bibliographicCitation>Gouffon et al. (2024): Tectonic Map of Switzerland 1:500'000, Explanatory notes. Federal Office of Topography swisstopo</dct:bibliographicCitation>
+	<dct:source>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</dct:source>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/LowerHelvetic">
@@ -1012,6 +1018,10 @@
 	<skos:prefLabel xml:lang="de">Unterhelvetikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Helvétique inférieur</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Elvetico inferiore</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Unterhelvetische (tektonische) Subdomäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">sous-domaine (tectonique) Helvétique inférieur</skos:altLabel>
+	<skos:altLabel xml:lang="it">sotto-dominio (tettonico) Elvetico inferiore</skos:altLabel>
+	<skos:altLabel xml:lang="en">Lower Helvetic (tectonic) subdomain</skos:altLabel>
 	<skos:notation>15309050</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/Helvetic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/SubalpineFlyschZone"/>
@@ -1056,6 +1066,10 @@
 	<skos:prefLabel xml:lang="de">Oberhelvetikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Helvétique supérieur</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Elvetico superiore</skos:prefLabel>
+	<skos:altLabel xml:lang="it">sotto-dominio (tettonico) Elvetico superiore</skos:altLabel>
+	<skos:altLabel xml:lang="fr">sous-domaine (tectonique) Helvétique supérieur</skos:altLabel>
+	<skos:altLabel xml:lang="en">Upper Helvetic (tectonic) subdomain</skos:altLabel>
+	<skos:altLabel xml:lang="de">Oberhelvetische (tektonische) Subdomäne</skos:altLabel>
 	<skos:notation>15309117</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/Helvetic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MontChetifNappe"/>
@@ -3194,10 +3208,13 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/Lepontic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
-	<rdfs:comment>https://www.strati.ch/en/tectonic/lepontic</rdfs:comment>
 	<skos:definition xml:lang="en">The Lepontic tectonic domain is situated between the Helvetic and Penninic units in the internal part of the Central Alps. It is characterized by the presence of a structural and metamorphic dome (Lepontine Dome). Most of these units are derived from the most distal part of the thinned European continental margin.</skos:definition>
+	<skos:example xml:lang="fr">groupe simplo-tessinois</skos:example>
+	<skos:example xml:lang="en">Lepontine Dome</skos:example>
+	<skos:example xml:lang="en">Subpenninic</skos:example>
+	<skos:example xml:lang="en">Infrapenninic</skos:example>
+	<skos:example xml:lang="fr">nappes simplo-tessinoises</skos:example>
+	<skos:example xml:lang="fr">Lépontides</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:topConceptOf rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
@@ -3206,18 +3223,23 @@
 	<skos:prefLabel xml:lang="de">Lepontikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Lépontique</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Lepontico</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">groupe simplo-tessinois</skos:altLabel>
-	<skos:altLabel xml:lang="en">Lepontine Dome</skos:altLabel>
-	<skos:altLabel xml:lang="en">Subpenninic</skos:altLabel>
-	<skos:altLabel xml:lang="en">Infrapenninic</skos:altLabel>
-	<skos:altLabel xml:lang="fr">nappes simplo-tessinoises</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Lépontides</skos:altLabel>
+	<skos:altLabel xml:lang="en">Lepontic (tectonic) domain</skos:altLabel>
+	<skos:altLabel xml:lang="de">Lepontische (tektonische) Domäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">domaine (tectonique) Lépontique</skos:altLabel>
+	<skos:altLabel xml:lang="it">dominio (tettonico) Lepontico</skos:altLabel>
+	<skos:hiddenLabel xml:lang="en">Lepontine</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="de">Lepontin</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">Lépontin</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="it">Lepontinico</skos:hiddenLabel>
 	<skos:notation>15309172</skos:notation>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MaggiaNappe"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/SambucoNappe"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/ToceDome"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TicinoDome"/>
+	<skos:exactMatch>https://www.strati.ch/en/tectonic/lepontic</skos:exactMatch>
 	<adms:status>active</adms:status>
+	<dct:bibliographicCitation>Gouffon et al. (2024): Tectonic Map of Switzerland 1:500'000, Explanatory notes. Federal Office of Topography swisstopo</dct:bibliographicCitation>
+	<dct:source>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</dct:source>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/VerampioNappe">
@@ -3723,9 +3745,17 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/Penninic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Penninic domain comprises all tectonic units situated between the Helvetic or the Lepontic domains and the Austroalpine or the Salassic domains. It also includes units that were transported further north on the Helvetic and which are currently found as klippen on top or in front of this domain (e.g. Prealps).</skos:definition>
+	<skos:example xml:lang="de">penninische Deckengebirge</skos:example>
+	<skos:example xml:lang="fr">zone pennique</skos:example>
+	<skos:example xml:lang="de">penninische Zone</skos:example>
+	<skos:example xml:lang="en">Pennides</skos:example>
+	<skos:example xml:lang="it">Falde pennidiche</skos:example>
+	<skos:example xml:lang="it">Zona Pennidica</skos:example>
+	<skos:example xml:lang="fr">nappes pennines</skos:example>
+	<skos:example xml:lang="fr">nappes penniques</skos:example>
+	<skos:example xml:lang="en">Penninic nappes (Schmid et al. 2004)</skos:example>
+	<skos:example xml:lang="de">Penninikum (Pfiffner 2009)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:topConceptOf rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
@@ -3734,20 +3764,22 @@
 	<skos:prefLabel xml:lang="de">Penninikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pennique</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Pennidico</skos:prefLabel>
-	<skos:altLabel xml:lang="de">penninische Deckengebirge</skos:altLabel>
-	<skos:altLabel xml:lang="fr">zone pennique</skos:altLabel>
-	<skos:altLabel xml:lang="de">penninische Zone</skos:altLabel>
-	<skos:altLabel xml:lang="en">Pennides</skos:altLabel>
-	<skos:altLabel xml:lang="it">Falde pennidiche</skos:altLabel>
-	<skos:altLabel xml:lang="it">Zona Pennidica</skos:altLabel>
-	<skos:altLabel xml:lang="fr">nappes pennines</skos:altLabel>
-	<skos:altLabel xml:lang="fr">nappes penniques</skos:altLabel>
+	<skos:altLabel xml:lang="en">Penninic (tectonic) domain</skos:altLabel>
+	<skos:altLabel xml:lang="de">Penninische (tektonische) Domäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">domaine (tectonique) Pennique</skos:altLabel>
+	<skos:altLabel xml:lang="it">dominio (tettonico) Pennidico</skos:altLabel>
+	<skos:hiddenLabel xml:lang="en">Pennine</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="de">Pennin</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">Penninique</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="it">Penninico</skos:hiddenLabel>
 	<skos:notation>15309199</skos:notation>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/LowerPenninic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MiddlePenninic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/UpperPenninic"/>
 	<skos:closeMatch rdf:resource="https://resource.geosphere.at/thes/tect/235"/>
 	<adms:status>active</adms:status>
+	<dct:bibliographicCitation>Gouffon et al. (2024): Tectonic Map of Switzerland 1:500'000, Explanatory notes. Federal Office of Topography swisstopo</dct:bibliographicCitation>
+	<dct:source>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</dct:source>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/LowerPenninic">
@@ -3755,16 +3787,21 @@
 	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
 	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Lower Penninic tectonic units are derived paleogeographically from the Cretaceous-Paleogene Valaisan Ocean. The remains of this basin are now at the base of the Penninic nappe stack and were overthrust by units that were originally deposited further south.</skos:definition>
+	<skos:example xml:lang="fr">série pennique inférieure</skos:example>
+	<skos:example xml:lang="de">Tiefpenninikum</skos:example>
+	<skos:example xml:lang="de">Untere Penninische Decken</skos:example>
+	<skos:example xml:lang="de">Unterepenninische Decken</skos:example>
+	<skos:example xml:lang="en">Lower Penninic nappes (Schmid et al. 2004)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:prefLabel xml:lang="en">Lower Penninic</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Unterpenninikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pennique inférieur</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Pennidico inferiore</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">série pennique inférieure</skos:altLabel>
-	<skos:altLabel xml:lang="de">Tiefpenninikum</skos:altLabel>
-	<skos:altLabel xml:lang="de">Untere Penninische Decken</skos:altLabel>
-	<skos:altLabel xml:lang="de">Unterepenninische Decken</skos:altLabel>
+	<skos:altLabel xml:lang="en">Lower Penninic (tectonic) subdomain</skos:altLabel>
+	<skos:altLabel xml:lang="de">Unterpenninische (tektonische) Subdomäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">sous-domaine (tectonique) Pennique inférieur</skos:altLabel>
+	<skos:altLabel xml:lang="it">sotto-dominio (tettonico) Pennidico inferiore</skos:altLabel>
 	<skos:notation>15309200</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/Penninic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/NiesenNappe"/>
@@ -3795,14 +3832,19 @@
 	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
 	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Middle Penninic subdomain comprises tectonic units located between the Lower Penninic subduction surface and the major thrust of the Upper Penninic. Paleogeographically, these units are derived from the Briançonnais Terrane. They are formed of a polycyclic crystalline basement, cut by Late Cambrian (ca. 500 Ma) and Permian (ca. 270 Ma) granitic intrusions, by Permo-Carboniferous sediments that filled narrow basins and a characteristic Mesozoic – Paleogene sedimentary cover (much of it detached at the level of the Triassic evaporites to form some of the nappes in the Prealps).</skos:definition>
+	<skos:example xml:lang="de">Mittelpenninische Decken</skos:example>
+	<skos:example xml:lang="de">Mittlere Penninische Decken</skos:example>
+	<skos:example xml:lang="en">Middle Penninic nappes (Schmid et al. 2004)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:prefLabel xml:lang="en">Middle Penninic</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Mittelpenninikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pennique moyen</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Pennidico medio</skos:prefLabel>
-	<skos:altLabel xml:lang="de">Mittelpenninische Decken</skos:altLabel>
-	<skos:altLabel xml:lang="de">Mittlere Penninische Decken</skos:altLabel>
+	<skos:altLabel xml:lang="en">Middle Penninic (tectonic) subdomain</skos:altLabel>
+	<skos:altLabel xml:lang="de">Mittelpenninische (tektonische) Subdomäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">sous-domaine (tectonique) Pennique moyen</skos:altLabel>
+	<skos:altLabel xml:lang="it">sotto-dominio (tettonico) Pennidico medio</skos:altLabel>
 	<skos:notation>15309227</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/Penninic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/ZoneSubmediane"/>
@@ -3838,18 +3880,23 @@
 	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
 	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Upper Penninic subdomain contains mainly magmatic and sedimentary rocks derived from the Piemonte-Liguria Ocean. Some thin continental margin sedimentary series and small continental crust slices are intercalated within these units. All of these units were driven into a subduction zone under the Salassic nappes, some exposed to high-pressure metamorphic conditions, others remaining under lower pressure conditions.</skos:definition>
+	<skos:example xml:lang="fr">série pennique supérieure</skos:example>
+	<skos:example xml:lang="fr">haut-pennique</skos:example>
+	<skos:example xml:lang="de">Hochpenninikum</skos:example>
+	<skos:example xml:lang="en">upper Pennine Alps</skos:example>
+	<skos:example xml:lang="de">Obere Penninische Decken</skos:example>
+	<skos:example xml:lang="de">Oberpenninische Decken</skos:example>
+	<skos:example xml:lang="en">Upper Penninic nappes (Schmid et al. 2004)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:prefLabel xml:lang="en">Upper Penninic</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Oberpenninikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pennique supérieur</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Pennidico superiore</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">série pennique supérieure</skos:altLabel>
-	<skos:altLabel xml:lang="fr">haut-pennique</skos:altLabel>
-	<skos:altLabel xml:lang="de">Hochpenninikum</skos:altLabel>
-	<skos:altLabel xml:lang="en">upper Pennine Alps</skos:altLabel>
-	<skos:altLabel xml:lang="de">Obere Penninische Decken</skos:altLabel>
-	<skos:altLabel xml:lang="de">Oberpenninische Decken</skos:altLabel>
+	<skos:altLabel xml:lang="en">Upper Penninic (tectonic) subdomaine</skos:altLabel>
+	<skos:altLabel xml:lang="de">Oberpenninische (tektonische) Subdomäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">sous-domaine (tectonique) Pennique supérieur</skos:altLabel>
+	<skos:altLabel xml:lang="it">sotto-dominio (tettonico) Pennidico superiore</skos:altLabel>
 	<skos:notation>15309267</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/Penninic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/GetsNappe"/>
@@ -5126,6 +5173,8 @@
 	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
 	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Préalpes Médianes Plastiques form the external part of the Préalpes Médianes Nappe (found both in the Romandes Prealps and the Chablais Prealps), which is characterized by a succession of large fault-related folds with axes oriented E–W to SSW–NNE.</skos:definition>
+	<skos:example xml:lang="fr">Zone extérieure du Dogger à Zoophycos (Lugeon 1896)</skos:example>
+	<skos:example xml:lang="fr">nappe des Préalpes médianes plastiques (Lugeon &amp; Gagnebin 1941)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:prefLabel xml:lang="en">Préalpes Médianes Plastiques</skos:prefLabel>
@@ -5143,6 +5192,8 @@
 	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
 	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Préalpes Médianes Rigides form the internal part of the Préalpes Médianes Nappe (mainly located in the Romandes Prealps), which consists of large imbricates.</skos:definition>
+	<skos:example xml:lang="fr">Zone axiale du Dogger à Mytilus (Lugeon 1896)</skos:example>
+	<skos:example xml:lang="fr">nappe des Préalpes médianes rigides (Lugeon &amp; Gagnebin 1941)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:prefLabel xml:lang="en">Préalpes Médianes Rigides</skos:prefLabel>
@@ -5152,7 +5203,8 @@
 	<skos:altLabel xml:lang="fr">zone des Rigides</skos:altLabel>
 	<skos:notation>15309231</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesNappe"/>
-	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/GummfluhSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesInternal"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternal"/>
 	<adms:status>active</adms:status>
 </rdf:Description>
 
@@ -5639,10 +5691,12 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/Austroalpine">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
-	<rdfs:comment>https://www.strati.ch/en/tectonic/austroalpine</rdfs:comment>
 	<skos:definition xml:lang="en">The Austroalpine tectonic domain is built up from allochthons derived from the Adriatic plate. The main episode of W- to NW- directed transport of nappe stacking is of Cretaceous age (“Eoalpine” orogeny reaching up to eclogitic conditions). Later, all these units became thrusted over the Penninic nappes towards the north during the Cenozoic, along a thrust that defines the outer limits of the Lower Engadine and the Tauern windows. The Austroalpine domain comprises two types of nappes. One type consists mainly of pre-Triassic crystalline basement rocks including their Permian – Mesozoic cover rocks (“basement-cover nappe”). The other type consists of detached allochthonous sedimentary cover rocks.\nBecause of the superposition of two orogenic cycles in the Austroalpine domain, its subdivision has always been difficult and controversial. In eastern Switzerland, the boundary between the Lower and Upper Austroalpine is largely based on paleogeographic considerations. The Upper Austroalpine units are derived from relatively more proximal parts of the Jurassic passive Adriatic continental margin in respect to the distal continental margin units preserved in the Lower Austroalpine, in particular in the Err Nappe characterized by the presence of rift-related polymict breccias of Early and Middle Jurassic age.</skos:definition>
+	<skos:example xml:lang="en">Austrides</skos:example>
+	<skos:example xml:lang="fr">Austrides</skos:example>
+	<skos:example xml:lang="fr">nappes austro-alpines</skos:example>
+	<skos:example xml:lang="en">Austroalpine Nappes (Schmid et al. 2004)</skos:example>
+	<skos:example xml:lang="de">Ostalpin (Pfiffner 2009)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:topConceptOf rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
@@ -5651,14 +5705,18 @@
 	<skos:prefLabel xml:lang="de">Ostalpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Austroalpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Austroalpino</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Austrides</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Austrides</skos:altLabel>
-	<skos:altLabel xml:lang="fr">nappes austro-alpines</skos:altLabel>
+	<skos:altLabel xml:lang="en">Austroalpine (tectonic) domaine</skos:altLabel>
+	<skos:altLabel xml:lang="de">Ostalpine (tektonische) Domäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">domaine (tectonique) Austroalpin</skos:altLabel>
+	<skos:altLabel xml:lang="it">dominio (tettonico) Austroalpino</skos:altLabel>
 	<skos:notation>15309310</skos:notation>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/LowerAustroalpine"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/UpperAustroalpine"/>
+	<skos:exactMatch>https://www.strati.ch/en/tectonic/austroalpine</skos:exactMatch>
 	<skos:exactMatch rdf:resource="https://resource.geosphere.at/thes/tect/113"/>
 	<adms:status>active</adms:status>
+	<dct:bibliographicCitation>Gouffon et al. (2024): Tectonic Map of Switzerland 1:500'000, Explanatory notes. Federal Office of Topography swisstopo</dct:bibliographicCitation>
+	<dct:source>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</dct:source>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/LowerAustroalpine">
@@ -5666,13 +5724,18 @@
 	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
 	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Lower Austroalpine comprises tectonic units that are derived from the former distal continental margin of the Adriatic plate, which was affected by Jurassic extensional detachment faults. The strongly deformed pre- and syn-rift strata became intensely reshaped and reworked during the closure of the Piemonte-Liguria Ocean and subsequent Alpine continental collision.\n\nThe facies of syn- and post-rift sediments of the Lower Austroalpine has remarkable similarities with those found in the Canavese area around the town of Ivrea, which is a part of the South Alpine derived of the western part of the Adria.</skos:definition>
+	<skos:example xml:lang="fr">Grisonides</skos:example>
+	<skos:example xml:lang="en">Lower Austroalpine nappes p.p. (Schmid et al. 2004)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:prefLabel xml:lang="en">Lower Austroalpine</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Unterostalpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Austroalpin inférieur</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Austroalpino inferiore</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">Grisonides</skos:altLabel>
+	<skos:altLabel xml:lang="en">Lower Austroalpine (tectonic) subdomaine</skos:altLabel>
+	<skos:altLabel xml:lang="de">Unterostalpine (tektonische) Subdomäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">sous-domaine (tectonique) Austroalpin inférieur</skos:altLabel>
+	<skos:altLabel xml:lang="it">sotto-dominio (tettonico) Austroalpino inferiore</skos:altLabel>
 	<skos:notation>15309311</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/Austroalpine"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/StammerspitzSlice"/>
@@ -5689,14 +5752,19 @@
 	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
 	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
 	<skos:definition xml:lang="en">The Upper Austroalpine embraces those units originating from the Adriatic continental plate that are interpreted to originally have been relatively more proximal in respect to the distal continental margin units preserved in the Lower Austroalpine, which it overthrust. The Upper Austroalpine units underwent less deformation during the opening of the Piemonte-Liguria Ocean and generally appear less intensely deformed during the Alpine orogeny. Many of them are basement-cover nappes, except for the small Roggenstock-Mördergruebi Nappe, the nappes of the Northern Calcareous Alps and the Quattervals Nappe, which are made up entirely of sedimentary rocks.</skos:definition>
+	<skos:example xml:lang="fr">Tyrolides</skos:example>
+	<skos:example xml:lang="fr">Tirolides</skos:example>
+	<skos:example xml:lang="en">Upper Austroalpine basement nappes (Schmid et al. 2004)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:prefLabel xml:lang="en">Upper Austroalpine</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Oberostalpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Austroalpin supérieur</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Austroalpino superiore</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">Tyrolides</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Tirolides</skos:altLabel>
+	<skos:altLabel xml:lang="en">Upper Austroalpine (tectonic) subdomain</skos:altLabel>
+	<skos:altLabel xml:lang="de">Oberostalpine (tektonische) Subdomäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">sous-domaine (tectonique) Austroalpin supérieur</skos:altLabel>
+	<skos:altLabel xml:lang="it">sotto-dominio (tettonico) Austroalpino superiore</skos:altLabel>
 	<skos:notation>15309336</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/Austroalpine"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/CampoNappeComplex"/>
@@ -6573,10 +6641,8 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/Salassic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
-	<rdfs:comment>https://www.strati.ch/en/tectonic/salassikum</rdfs:comment>
 	<skos:definition xml:lang="en">The Salassic Domain groups the tectonic units derived from an extensional allochthon split off from the most distal part of the Adriatic margin during the Middle Jurassic opening of the Piemonte-Liguria Ocean and subducted below the Austroalpine and South Alpine units in Late Cretaceous times. These units – Dent Blanche, Mont Mary and Sesia nappes in western Switzerland and adjacent Italy, together with the Margna and Sella nappes in southeastern Switzerland and partly in Italy – are characterised by their high-pressure metamorphism.</skos:definition>
+	<skos:example xml:lang="fr">Austroalpin valaisan</skos:example>
 	<skos:example xml:lang="en">Cervinia (Froitzheim)</skos:example>
 	<skos:example xml:lang="it">sistema Sesia-Dent Blanche (Bearth 1980)</skos:example>
 	<skos:example xml:lang="en">Austro-Alpine thrust system of the Western Alps (dal Piaz 1993)</skos:example>
@@ -6587,7 +6653,10 @@
 	<skos:prefLabel xml:lang="de">Salassikum</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Salassique</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Salassico</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">Austroalpin valaisan</skos:altLabel>
+	<skos:altLabel xml:lang="en">Salassic (tectonic) domain</skos:altLabel>
+	<skos:altLabel xml:lang="de">Salassische (tektonische) Domäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">domaine (tectonique) Salassique</skos:altLabel>
+	<skos:altLabel xml:lang="it">dominio (tettonico) Salassico</skos:altLabel>
 	<skos:notation>15309295</skos:notation>
 	<skos:historyNote xml:lang="en">This term stems from a Celtic tribe, the Salasses, who settled in the Valle d’Aosta and the Sesia region, at the same time as the Helvetians north of the Alps and the Lepontians between Val d’Ossola and Leventina.</skos:historyNote>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MontMaryNappe"/>
@@ -6596,7 +6665,10 @@
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MargnaNappe"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/SellaNappe"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/RoisanCignanaShearZone"/>
+	<skos:exactMatch>https://www.strati.ch/en/tectonic/salassikum</skos:exactMatch>
 	<adms:status>active</adms:status>
+	<dct:bibliographicCitation>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</dct:bibliographicCitation>
+	<dct:source>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</dct:source>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/MontMaryNappe">
@@ -6712,7 +6784,7 @@
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/Salassic"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/ForcellinaSlice"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MalojaSlice"/>
-	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/ForaUnit"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/ForaSlice"/>
 	<adms:status>active</adms:status>
 </rdf:Description>
 
@@ -6969,22 +7041,6 @@
 	<adms:status>active</adms:status>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/ForaUnit">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="de">Untere, liegende, antiklinale Grossfalte der Margna-Decke.</skos:definition>
-	<skos:definition xml:lang="en">The Fora Slice is the lowermost slice of the central part of the Margna Nappe (Piz da la Margna, Piz Fedoz), consisting of a large recumbent (i.e. flat-lying) anticline.</skos:definition>
-	<skos:example xml:lang="de">Fora-Teildecke (Spillmann &amp; Trommsdorff 2007)</skos:example>
-	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
-	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
-	<skos:prefLabel xml:lang="en">Fora Unit</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Fora-Einheit</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Écaille du Piz Fora</skos:prefLabel>
-	<skos:prefLabel xml:lang="it">Scaglia del Piz Fora</skos:prefLabel>
-	<skos:notation>15309414</skos:notation>
-	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MargnaNappe"/>
-	<adms:status>active</adms:status>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/RothornNappe">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
@@ -7118,16 +7174,15 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/SouthAlpine">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy>Gouffon Yves (Editor) (2024): Tectonic Map of Switzerland 1:500000, Explanatory notes. Federal Office of Topography swisstopo, Wabern</rdfs:isDefinedBy>
-	<rdfs:comment>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</rdfs:comment>
-	<rdfs:comment>https://www.strati.ch/en/tectonic/sudalpino</rdfs:comment>
 	<skos:definition xml:lang="en">The South Alpine tectonic domain exposes a complete section of the Adriatic continental crust from ultramafic (slices of uppermost continental mantle lithosphere), mafic and felsic granulite-facies rocks (lower continental crust: Ivrea Zone) through medium- and low-grade basement rocks (middle–upper continental crust: Strona-Ceneri and Val Colla zones, basement of the Orobic units) to unconformably overlying non-metamorphic Late Carboniferous sediments that were involved in post-Variscan folding.\nThe detached Variscan continental crust and its overlying Permian to Miocene sedimentary cover form a fold-and-thrust belt, the southern S-vergent back-chain of the Alps, separated from the other domains of the Western and Central Alps to the west by the Canavese Fault and to the north by the Tonale Fault. Both faults are part of an Oligocene–Miocene post-collisional system of transpressive transfer faults along the northwestern boundary of the Adriatic indenter.</skos:definition>
+	<skos:example xml:lang="en">Southalpine</skos:example>
 	<skos:example xml:lang="en">Southern Alps = Alpi meridionali (Dal Piaz et al. 1973)</skos:example>
 	<skos:example xml:lang="it">Alpi meridionali lombarde (Godenzi 1963)</skos:example>
 	<skos:example xml:lang="it">Sudalpino = Alpi meridionali (Sciesa 1991)</skos:example>
 	<skos:example xml:lang="it">Alpi Meridionali = Sudalpino (Dal Piaz et al. 1992a)</skos:example>
 	<skos:example xml:lang="de">Südalpin (Spillmann 1993)</skos:example>
 	<skos:example xml:lang="de">Südalpen (Trümpy 1974)</skos:example>
+	<skos:example xml:lang="de">Südalpin (Pfiffner 2009)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:topConceptOf rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
@@ -7136,7 +7191,10 @@
 	<skos:prefLabel xml:lang="de">Südalpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Sudalpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Sudalpino</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Southalpine</skos:altLabel>
+	<skos:altLabel xml:lang="en">South Alpine (tectonic) domain</skos:altLabel>
+	<skos:altLabel xml:lang="de">Südalpine (tektonische) Domäne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">domaine (tectonique) Sudalpin</skos:altLabel>
+	<skos:altLabel xml:lang="it">dominio (tettonico) Sudalpino</skos:altLabel>
 	<skos:notation>15309372</skos:notation>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/CanaveseZone"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MilanBelt"/>
@@ -7145,8 +7203,11 @@
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/VaresottoImbricates"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/IvreaCeneriComplex"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/StronaCeneriZone"/>
+	<skos:exactMatch>https://www.strati.ch/en/tectonic/sudalpino</skos:exactMatch>
 	<skos:closeMatch rdf:resource="https://resource.geosphere.at/thes/tect/323"/>
 	<adms:status>active</adms:status>
+	<dct:bibliographicCitation>Gouffon et al. (2024): Tectonic Map of Switzerland 1:500'000, Explanatory notes. Federal Office of Topography swisstopo</dct:bibliographicCitation>
+	<dct:source>https://data.geo.admin.ch/ch.swisstopo.geologie-tektonische_karte/pdf/Erl-TK500_2024.pdf</dct:source>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/CanaveseZone">
@@ -8568,12 +8629,14 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/GummfluhSlice">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:scopeNote xml:lang="en">Coumatta, Gummfluh, Gummesel, Muttenhubel</skos:scopeNote>
+	<skos:example xml:lang="fr">écaille de la Gummfluh (Baud 1972)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
 	<skos:prefLabel xml:lang="en">Gummfluh Slice</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Gummfluh-Schuppe</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Écaille de la Gummfluh</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Scaglia della Gummfluh</skos:prefLabel>
-	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigides"/>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesInternal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/TilisunaSchwarzhornSlice">
@@ -8584,6 +8647,224 @@
 	<skos:prefLabel xml:lang="fr">Écaille de Tilisuna-Schwarzhorn</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Scaglia di Tilisuna-Schwarzhorn</skos:prefLabel>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/DorfbergNappe"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesInternal">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The tectonic slices of the Internal Rigides are characterized by a stratigraphic sequence with hiatuses (resulting of post-Triassic to pre-Bathonian erosion and emersion events which have left some remnants such as bauxite deposits and palaeokarsts) overlain by Middle Jurassic neritic deposits (“Mytilus Dogger”) or directly capped by massive limestones (Malm).</skos:definition>
+	<skos:example xml:lang="fr">Rigides internes (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="fr">Rigides Internes</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigides"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/GummfluhSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/DreveneuseSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/RubliSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/SpillgertenSlice"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternal">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:example xml:lang="fr">Rigides externes  (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="fr">Rigides Externes</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigides"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalUpper"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalLower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalUpper">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The tectonic slices of the Upper External Rigides locally display karst features at the base of a brecciated sequence composed of dolomites and dark limestones, sometimes accompanied by pelitic layers, with transgressively overlying Mytilus Beds.</skos:definition>
+	<skos:example xml:lang="fr">Rigides externes supérieures (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="fr">Rigides Externes Supérieures</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternal"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MontChauffeSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/GastlosenSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/NiederhornSlice"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalLower">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The tectonic slices of the Lower External Rigides have a stratigraphic sequence restricted to Middle Triassic limestones and dolostones (St-Triphon and Wiriehorn formations), with cellular dolomite underlining their tectonic boundaries.</skos:definition>
+	<skos:example xml:lang="fr">Rigides externes inférieures (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="fr">Rigides Externes Inférieures</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternal"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/VilleDuNantSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/SaintTriphonSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/GrandeEauSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MontDOrSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/RocherDuMidiSlice"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/WiriehornSlice"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/DreveneuseSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:example xml:lang="fr">écaille de Dréveneuse (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Dréveneuse Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Dréveneuse-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille de Dréveneuse</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia di Dréveneuse</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesInternal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/RubliSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:scopeNote xml:lang="en">Rocher Plat, Rubli, Dorfflüe</skos:scopeNote>
+	<skos:example xml:lang="fr">écaille du Rubli (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Rubli Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Rubli-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille du Rubli</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia del Rubli</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesInternal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/SpillgertenSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:scopeNote xml:lang="en">Gandhore, Brunnihore, Hinderi- und Vorderi Spillgerte, Seehore, Meniggrat, Abendberg</skos:scopeNote>
+	<skos:example xml:lang="fr">écaille des Spillgerten (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Spillgerten Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Spillgerten-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille des Spillgerten</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia delle Spillgerten</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesInternal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/VilleDuNantSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:scopeNote xml:lang="en">Eperon de Nant</skos:scopeNote>
+	<skos:example xml:lang="fr">écaille de la Ville du Nant (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Ville du Nant Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Ville-du.Nant-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille de la Ville du Nant</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia della Ville du Nant</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalLower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/SaintTriphonSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:example xml:lang="fr">écaille de Saint Triphon (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">St-Triphon Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">St-Triphon-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille de St-Triphon</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia di St-Triphon</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalLower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/GrandeEauSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:example xml:lang="fr">écaille de la Grande Eau (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Grande Eau Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Grande-Eau-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille de la Grande Eau</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia della Grande Eau</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalLower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/MontDOrSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:example xml:lang="fr">écaille du Mont d'Or (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Mont d'Or Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Mont-d'Or-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille du Mont d'Or</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia del Mont d'Or</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalLower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/RocherDuMidiSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Rocher du Midi Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Rocher-du-Midi-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille du Rocher du Midi</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia del Rocher du Midi</skos:prefLabel>
+	<skos:historyNote xml:lang="fr">écaille du Rocher du Midi (Baud 1972)</skos:historyNote>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalLower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/WiriehornSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:scopeNote xml:lang="en">Mieschflue, Rothorn, Tierlaufhorn, Wiriehorn, Schwarzenberg, Oeywald</skos:scopeNote>
+	<skos:example xml:lang="fr">écaille du Wiriehorn (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Wiriehorn Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Wiriehorn-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille du Wiriehorn</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia del Wiriehorn</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalLower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/MontChauffeSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:example xml:lang="fr">écaille du Mont Chauffé (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Mont Chauffé Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Mont-Chauffé-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille du Mont Chauffé</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia del Mont Chauffé</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalUpper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/GastlosenSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:scopeNote xml:lang="en">Laitemaire, Rochers des Rayes, Dent de Savigny, Zuckerspitz, Wandflue, Gastlosen, Bäderhorn, Mittagflue</skos:scopeNote>
+	<skos:example xml:lang="fr">écaille des Gastlosen (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Gastlosen Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Gastlosen-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille des Gastlosen</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia delle Gastlosen</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalUpper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/NiederhornSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:scopeNote xml:lang="en">Niederhorn, Turnen, Pfaffen, Tschuggenwald</skos:scopeNote>
+	<skos:example xml:lang="fr">écaille du Niederhorn (Baud 1972)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="en">Niederhorn Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Niederhorn-Schuppe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écaille du Niederhorn</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia del Niederhorn</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesRigidesExternalUpper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesPlastiquesExternes">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="fr">Plastiques Externes</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesPlastiques"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesPlastiquesInternes">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="fr">Plastiques Internes</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/PrealpesMedianesPlastiques"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/TectonicUnits/ForaSlice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="de">Untere, liegende, antiklinale Grossfalte der Margna-Decke.</skos:definition>
+	<skos:definition xml:lang="en">The Fora Slice is the lowermost slice of the central part of the Margna Nappe (Piz da la Margna, Piz Fedoz), consisting of a large recumbent (i.e. flat-lying) anticline.</skos:definition>
+	<skos:example xml:lang="de">Fora-Teildecke (Spillmann &amp; Trommsdorff 2007)</skos:example>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/TectonicUnits"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/conceptScheme_8ef10ff0"/>
+	<skos:prefLabel xml:lang="fr">Écaille du Piz Fora</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia del Piz Fora</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Fora Slice</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Fora-Schuppe</skos:prefLabel>
+	<skos:notation>15309414</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/TectonicUnits/MargnaNappe"/>
+	<adms:status>active</adms:status>
 </rdf:Description>
 
 </rdf:RDF>
